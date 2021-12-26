@@ -1,0 +1,29 @@
+.cover__image {
+  position: absolute;
+  opacity: .7;
+  max-width: 1184px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .cover__image {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .cover__image {
+    max-width: 100%;
+  }
+}
