@@ -6,11 +6,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 92px;
 }
 
 .cover:hover {
   opacity: .8;
+  transition: .7s ease-in-out;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -22,7 +22,6 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
     min-height: 480px;
-    padding-bottom: 88px;
   }
 }
 
@@ -35,6 +34,5 @@
 @media screen and (max-width: 424px) {
   .cover {
     min-height: 200px;
-    padding-bottom: 62px;
   }
 }
